@@ -55,7 +55,8 @@ private:
 		return instance;
 	}
 
-	//Data
+	//Shared Data 
+
 	int count;
 	std::mutex mtx; //This mutex is used for the 'count' variable
 
